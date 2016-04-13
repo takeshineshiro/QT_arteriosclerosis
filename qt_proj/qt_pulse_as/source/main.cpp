@@ -3,7 +3,7 @@
 #include "./header/QDrawWaveWidget.h"
 #include <QtWidgets/QApplication>
 #include <QDialogButtonBox>
-#include "./header/QPushButtonDemo.h"
+//#include "./header/QPushButtonDemo.h"
 #include "./header/QReadAndWriteXml.h"
 #include "./header/QPainterResult.h"
 #include "./header/QShowMeasureResult.h"

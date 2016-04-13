@@ -10,6 +10,10 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 QT       += printsupport
 
+QT       += serialport
+
+QT       += xml
+
 TARGET = qt_pulse_as
 TEMPLATE = app
 
@@ -63,7 +67,9 @@ HEADERS  += \
     header/PackageRecvCmd.h \
     header/packagecommon.h \
     header/measurearteriosclerosis.h \
-    header/fenlishuju_and_lvbo_2.h
+    header/fenlishuju_and_lvbo_2.h \
+    header/ui_MedicalRecordDlg.h \
+    header/ui_PersonBasicInfo.h
 
 FORMS    += \
     MedicalRecordDlg.ui \

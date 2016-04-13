@@ -1,0 +1,1289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/ -f qt_pulse_as.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = "0";
+		};
+		00111CC1F662090842ADB6B7 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/stdafx.cpp";
+			name = "stdafx.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		380AB44274452590DDE50734 = {
+			fileRef = "00111CC1F662090842ADB6B7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		39C29E7545856BC35B900C1D = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QTabManagerDlg.cpp";
+			name = "QTabManagerDlg.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6D6462EC75024F5735D16FE6 = {
+			fileRef = "39C29E7545856BC35B900C1D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C271560F2F86784DBDBBA384 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QShowMeasureResult.cpp";
+			name = "QShowMeasureResult.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C0680D49D359587B4A09E1FF = {
+			fileRef = "C271560F2F86784DBDBBA384";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3AE567C3B59CA2A224D277AD = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QSerialRecvThread.cpp";
+			name = "QSerialRecvThread.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		CF7004C99E4CF3E476AC6DA8 = {
+			fileRef = "3AE567C3B59CA2A224D277AD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		30D6B54B6BC292A4B8E09A14 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QSavePressureWorker.cpp";
+			name = "QSavePressureWorker.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A939D3F5CB0622E8F0CF1ED9 = {
+			fileRef = "30D6B54B6BC292A4B8E09A14";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A4EAC25C1F08717BBAFC71DE = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QSavePressureThread.cpp";
+			name = "QSavePressureThread.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		11E263642966FB666B283814 = {
+			fileRef = "A4EAC25C1F08717BBAFC71DE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		07DF82279EE21245E8BA57A2 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QSavePressure.cpp";
+			name = "QSavePressure.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AE02802AD428F9E19A3812A4 = {
+			fileRef = "07DF82279EE21245E8BA57A2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2A2D2A92A0DB8DDD6D22F5B3 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QResultEvaluate.cpp";
+			name = "QResultEvaluate.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C5BCE32E45A7349B3F71CB51 = {
+			fileRef = "2A2D2A92A0DB8DDD6D22F5B3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		113B824C7B55F0E8723CC4B3 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QReadAndWriteXml.cpp";
+			name = "QReadAndWriteXml.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8FB6B6B96F56967FD8704839 = {
+			fileRef = "113B824C7B55F0E8723CC4B3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CECAEE76DE100D8642E3D743 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QPersonBasicInfoDlg.cpp";
+			name = "QPersonBasicInfoDlg.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E32CF3DFE2DDB39A340F14DF = {
+			fileRef = "CECAEE76DE100D8642E3D743";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DA3D12D33028E2D4DADBF5DD = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QPainterResult.cpp";
+			name = "QPainterResult.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		50F3CD1CDFF3F84435F0A03D = {
+			fileRef = "DA3D12D33028E2D4DADBF5DD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BAFFFB12AEB911BC53EBCFE0 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QPackageReceiveWorker.cpp";
+			name = "QPackageReceiveWorker.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4DB16C4A99C2A42E5843700B = {
+			fileRef = "BAFFFB12AEB911BC53EBCFE0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A092DE145DC0B854F38877E1 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QMedicalRecordDlg.cpp";
+			name = "QMedicalRecordDlg.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		10D8206434DE3BAC0B812ACF = {
+			fileRef = "A092DE145DC0B854F38877E1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		189FD41B118362E1F181A6C5 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QMeasureDlg.cpp";
+			name = "QMeasureDlg.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AC8AB32DB2F286A98D5CF806 = {
+			fileRef = "189FD41B118362E1F181A6C5";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5BE1116D7274BAECB540D17F = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QFilterData.cpp";
+			name = "QFilterData.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C60994728252D1416B511EAE = {
+			fileRef = "5BE1116D7274BAECB540D17F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EE1981864F41BE7F1D82061A = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QDrawWaveWorker.cpp";
+			name = "QDrawWaveWorker.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		48F9B8C9B8F3003B8FC8EAAF = {
+			fileRef = "EE1981864F41BE7F1D82061A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A903BE6F7D524B03F31A37D7 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QDrawWaveWidget.cpp";
+			name = "QDrawWaveWidget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		44CC893022F4C73495338788 = {
+			fileRef = "A903BE6F7D524B03F31A37D7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		03BD64BFE29CC2E7D21BA36D = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/QDrawMeasure.cpp";
+			name = "QDrawMeasure.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		301B20C16BFF75A2CC7432DA = {
+			fileRef = "03BD64BFE29CC2E7D21BA36D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		69602EA89E68015FE340C77C = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/PackageSendCmd.cpp";
+			name = "PackageSendCmd.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FCB51EA84D7B8A92885CB5B3 = {
+			fileRef = "69602EA89E68015FE340C77C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3AAAEBABACCE664D27995F4C = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/PackageRecvCmd.cpp";
+			name = "PackageRecvCmd.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		55A236D24C8B3D00CC85AC98 = {
+			fileRef = "3AAAEBABACCE664D27995F4C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		29EA59B7391502777D304619 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/packagecommon.cpp";
+			name = "packagecommon.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		975BD3159F973670FD039837 = {
+			fileRef = "29EA59B7391502777D304619";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4D29508A6569BD27A4737024 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/measurearteriosclerosis.cpp";
+			name = "measurearteriosclerosis.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		25D85CDF30749D806E03EEBF = {
+			fileRef = "4D29508A6569BD27A4737024";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6FDA85111B947FAA31BC09C0 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/source/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F9D6908C3B3BBBDA6C0B3928 = {
+			fileRef = "6FDA85111B947FAA31BC09C0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F0C33A6D1FDFF20AE80B33D9 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/moc_QTabManagerDlg.cpp";
+			name = "moc_QTabManagerDlg.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3F9FF44ACC0189DF58F1E42E = {
+			fileRef = "F0C33A6D1FDFF20AE80B33D9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E37490B467E3D058455B320B = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/moc_QShowMeasureResult.cpp";
+			name = "moc_QShowMeasureResult.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FFB7924C22503C73F3563BD9 = {
+			fileRef = "E37490B467E3D058455B320B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BB912734D01798C5A70715AB = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/moc_QSerialRecvThread.cpp";
+			name = "moc_QSerialRecvThread.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AA1A6320581D96101C7A817D = {
+			fileRef = "BB912734D01798C5A70715AB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		89CFFCBC9B2E183576A45249 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/moc_QSavePressureWorker.cpp";
+			name = "moc_QSavePressureWorker.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5D2D99A2CA6621F9A4D65D55 = {
+			fileRef = "89CFFCBC9B2E183576A45249";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7EE6F2CCE49D1D9213120A10 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/moc_QSavePressureThread.cpp";
+			name = "moc_QSavePressureThread.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E9AC9DF4B6D4DA0D8276330E = {
+			fileRef = "7EE6F2CCE49D1D9213120A10";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2DC5FEE1599BD690C08EA537 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/moc_QPersonBasicInfoDlg.cpp";
+			name = "moc_QPersonBasicInfoDlg.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7F1298BA5323E4B61024BB91 = {
+			fileRef = "2DC5FEE1599BD690C08EA537";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0294F7623A1F550DE7BBB288 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/moc_QPackageReceiveWorker.cpp";
+			name = "moc_QPackageReceiveWorker.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		99AEC3344E3453E7EAA94EF3 = {
+			fileRef = "0294F7623A1F550DE7BBB288";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EE6F00D32F3607E726D26BCF = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/moc_QMedicalRecordDlg.cpp";
+			name = "moc_QMedicalRecordDlg.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		BE90E84E7298B0038FCE1372 = {
+			fileRef = "EE6F00D32F3607E726D26BCF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		49208140F91D23AA2259FDEC = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/moc_QMeasureDlg.cpp";
+			name = "moc_QMeasureDlg.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		132CBB16C69F74ABFCA9C268 = {
+			fileRef = "49208140F91D23AA2259FDEC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E9799012A3FDEE4757A7AF3A = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/moc_QDrawWaveWorker.cpp";
+			name = "moc_QDrawWaveWorker.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8588BB398EF819361203D15F = {
+			fileRef = "E9799012A3FDEE4757A7AF3A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B2F6E7FD96BE2060DDBBFA93 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/moc_QDrawWaveWidget.cpp";
+			name = "moc_QDrawWaveWidget.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C4F2EA74AB0B5136FC1E5258 = {
+			fileRef = "B2F6E7FD96BE2060DDBBFA93";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7AF288BA106F58AD556E0EF0 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/moc_measurearteriosclerosis.cpp";
+			name = "moc_measurearteriosclerosis.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		60231B88E508C9AF02383EB8 = {
+			fileRef = "7AF288BA106F58AD556E0EF0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E6F204A969C6267387AF6281 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/ui_MedicalRecordDlg.h";
+			name = "ui_MedicalRecordDlg.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		50E5CE505C1DB20F06D7FCB2 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/ui_PersonBasicInfo.h";
+			name = "ui_PersonBasicInfo.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		85009478FF3C1F8EFDCD4BBA = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/stdafx.h";
+			name = "stdafx.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		42CB302F4A10C4CB0A02D89E = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QTabManagerDlg.h";
+			name = "QTabManagerDlg.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9CD072C3BB564251522EDC02 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QShowMeasureResult.h";
+			name = "QShowMeasureResult.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EC65BCF4787E6F74DDE7D351 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QSerialRecvThread.h";
+			name = "QSerialRecvThread.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B9F810DA8D268789F69CB447 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QSavePressureWorker.h";
+			name = "QSavePressureWorker.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		086C9385798868CFE2E428BC = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QSavePressureThread.h";
+			name = "QSavePressureThread.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		240BA4043059C8FC7BC9A982 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QSavePressure.h";
+			name = "QSavePressure.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		95C9CF367A415AEEFE3E7EDA = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QResultEvaluate.h";
+			name = "QResultEvaluate.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6B4065F35E43DB4DC298FF5F = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QReadAndWriteXml.h";
+			name = "QReadAndWriteXml.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B518CB36ABE9C917E856BB0E = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QPersonBasicInfoDlg.h";
+			name = "QPersonBasicInfoDlg.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B30AC377C7E5B833F2545E42 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QPainterResult.h";
+			name = "QPainterResult.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		652CF38879F7420C9CEA8D52 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QPackageReceiveWorker.h";
+			name = "QPackageReceiveWorker.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1A2ECFB9D3A7571150BFC780 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QMedicalRecordDlg.h";
+			name = "QMedicalRecordDlg.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6A6348C5F5CE2CC2D800ABA5 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QMeasureDlg.h";
+			name = "QMeasureDlg.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		42CDC8F216FD79A2EC878877 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QFilterData.h";
+			name = "QFilterData.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		93AE494D8D8B9D2CF7FA7ED0 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QDrawWaveWorker.h";
+			name = "QDrawWaveWorker.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		72BA00404EBF181395217175 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QDrawWaveWidget.h";
+			name = "QDrawWaveWidget.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8E61C20D26D7798D8DAB132C = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QDrawMeasure.h";
+			name = "QDrawMeasure.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		32034D7CAF36001FE64F6D45 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/QConstValue.h";
+			name = "QConstValue.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		339BC1B861FC9A32A2912845 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/PackageSendCmd.h";
+			name = "PackageSendCmd.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D803C50CD729BB3B26BA35E6 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/PackageRecvCmd.h";
+			name = "PackageRecvCmd.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		301AF7762B81D9CBC3C495CE = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/packagecommon.h";
+			name = "packagecommon.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		703832B4915B525BEC8D4470 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/measurearteriosclerosis.h";
+			name = "measurearteriosclerosis.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3A981AE729951CB3A34C3EDF = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/header/fenlishuju_and_lvbo_2.h";
+			name = "fenlishuju_and_lvbo_2.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		00975BAEE4475E4B69301219 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/qt_pulse_as.pro";
+			name = "qt_pulse_as.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		74BDA213AC22B42A1D73B4C9 = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/MedicalRecordDlg.ui";
+			name = "MedicalRecordDlg.ui";
+			sourceTree = "<absolute>";
+		};
+		CCE60761EDACB7B3259AB1A6 = {
+			fileRef = "74BDA213AC22B42A1D73B4C9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F67FE54F3D6719DFF38A3CBD = {
+			isa = PBXFileReference;
+			path = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/PersonBasicInfo.ui";
+			name = "PersonBasicInfo.ui";
+			sourceTree = "<absolute>";
+		};
+		74D395F5C5032E4FB73F5B2C = {
+			fileRef = "F67FE54F3D6719DFF38A3CBD";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"F0C33A6D1FDFF20AE80B33D9",
+				"E37490B467E3D058455B320B",
+				"BB912734D01798C5A70715AB",
+				"89CFFCBC9B2E183576A45249",
+				"7EE6F2CCE49D1D9213120A10",
+				"2DC5FEE1599BD690C08EA537",
+				"0294F7623A1F550DE7BBB288",
+				"EE6F00D32F3607E726D26BCF",
+				"49208140F91D23AA2259FDEC",
+				"E9799012A3FDEE4757A7AF3A",
+				"B2F6E7FD96BE2060DDBBFA93",
+				"7AF288BA106F58AD556E0EF0",
+				"E6F204A969C6267387AF6281",
+				"50E5CE505C1DB20F06D7FCB2");
+			name = "Generated Sources";
+			sourceTree = "<Group>";
+		};
+		039A2ABD499B3223B18CC804 = {
+			isa = PBXGroup;
+			children = (
+				"85009478FF3C1F8EFDCD4BBA",
+				"42CB302F4A10C4CB0A02D89E",
+				"9CD072C3BB564251522EDC02",
+				"EC65BCF4787E6F74DDE7D351",
+				"B9F810DA8D268789F69CB447",
+				"086C9385798868CFE2E428BC",
+				"240BA4043059C8FC7BC9A982",
+				"95C9CF367A415AEEFE3E7EDA",
+				"6B4065F35E43DB4DC298FF5F",
+				"B518CB36ABE9C917E856BB0E",
+				"B30AC377C7E5B833F2545E42",
+				"652CF38879F7420C9CEA8D52",
+				"1A2ECFB9D3A7571150BFC780",
+				"6A6348C5F5CE2CC2D800ABA5",
+				"42CDC8F216FD79A2EC878877",
+				"93AE494D8D8B9D2CF7FA7ED0",
+				"72BA00404EBF181395217175",
+				"8E61C20D26D7798D8DAB132C",
+				"32034D7CAF36001FE64F6D45",
+				"339BC1B861FC9A32A2912845",
+				"D803C50CD729BB3B26BA35E6",
+				"301AF7762B81D9CBC3C495CE",
+				"703832B4915B525BEC8D4470",
+				"3A981AE729951CB3A34C3EDF");
+			name = "header";
+			sourceTree = "<Group>";
+		};
+		51A8A62A48A31E05FD1F4896 = {
+			isa = PBXGroup;
+			children = (
+				"00111CC1F662090842ADB6B7",
+				"39C29E7545856BC35B900C1D",
+				"C271560F2F86784DBDBBA384",
+				"3AE567C3B59CA2A224D277AD",
+				"30D6B54B6BC292A4B8E09A14",
+				"A4EAC25C1F08717BBAFC71DE",
+				"07DF82279EE21245E8BA57A2",
+				"2A2D2A92A0DB8DDD6D22F5B3",
+				"113B824C7B55F0E8723CC4B3",
+				"CECAEE76DE100D8642E3D743",
+				"DA3D12D33028E2D4DADBF5DD",
+				"BAFFFB12AEB911BC53EBCFE0",
+				"A092DE145DC0B854F38877E1",
+				"189FD41B118362E1F181A6C5",
+				"5BE1116D7274BAECB540D17F",
+				"EE1981864F41BE7F1D82061A",
+				"A903BE6F7D524B03F31A37D7",
+				"03BD64BFE29CC2E7D21BA36D",
+				"69602EA89E68015FE340C77C",
+				"3AAAEBABACCE664D27995F4C",
+				"29EA59B7391502777D304619",
+				"4D29508A6569BD27A4737024",
+				"6FDA85111B947FAA31BC09C0");
+			name = "source";
+			sourceTree = "<Group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"51A8A62A48A31E05FD1F4896",
+				"039A2ABD499B3223B18CC804");
+			name = "Sources";
+			sourceTree = "<Group>";
+		};
+		12E908B8A1C3C07C115504F5 = {
+			isa = PBXGroup;
+			children = (
+				"74BDA213AC22B42A1D73B4C9",
+				"F67FE54F3D6719DFF38A3CBD");
+			name = "Sources [uic]";
+			sourceTree = "<Group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"00975BAEE4475E4B69301219");
+			name = "Supporting Files";
+			sourceTree = "<Group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/ -f qt_pulse_as.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = "0";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"380AB44274452590DDE50734",
+				"6D6462EC75024F5735D16FE6",
+				"C0680D49D359587B4A09E1FF",
+				"CF7004C99E4CF3E476AC6DA8",
+				"A939D3F5CB0622E8F0CF1ED9",
+				"11E263642966FB666B283814",
+				"AE02802AD428F9E19A3812A4",
+				"C5BCE32E45A7349B3F71CB51",
+				"8FB6B6B96F56967FD8704839",
+				"E32CF3DFE2DDB39A340F14DF",
+				"50F3CD1CDFF3F84435F0A03D",
+				"4DB16C4A99C2A42E5843700B",
+				"10D8206434DE3BAC0B812ACF",
+				"AC8AB32DB2F286A98D5CF806",
+				"C60994728252D1416B511EAE",
+				"48F9B8C9B8F3003B8FC8EAAF",
+				"44CC893022F4C73495338788",
+				"301B20C16BFF75A2CC7432DA",
+				"FCB51EA84D7B8A92885CB5B3",
+				"55A236D24C8B3D00CC85AC98",
+				"975BD3159F973670FD039837",
+				"25D85CDF30749D806E03EEBF",
+				"F9D6908C3B3BBBDA6C0B3928",
+				"3F9FF44ACC0189DF58F1E42E",
+				"FFB7924C22503C73F3563BD9",
+				"AA1A6320581D96101C7A817D",
+				"5D2D99A2CA6621F9A4D65D55",
+				"E9AC9DF4B6D4DA0D8276330E",
+				"7F1298BA5323E4B61024BB91",
+				"99AEC3344E3453E7EAA94EF3",
+				"BE90E84E7298B0038FCE1372",
+				"132CBB16C69F74ABFCA9C268",
+				"8588BB398EF819361203D15F",
+				"C4F2EA74AB0B5136FC1E5258",
+				"60231B88E508C9AF02383EB8");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		76D3B57722BB7036AF212927 = {
+			isa = PBXFileReference;
+			name = "QtPrintSupport.framework";
+			path = "/Users/wong/Qt5.6.0/5.6/clang_64/lib/QtPrintSupport.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		64DDDEC81E956CEB2D7F8497 = {
+			fileRef = "76D3B57722BB7036AF212927";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B41C536525D6F53347B0637E = {
+			isa = PBXFileReference;
+			name = "QtWidgets.framework";
+			path = "/Users/wong/Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		63F459378D66B39AD5C37A44 = {
+			fileRef = "B41C536525D6F53347B0637E";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A356907425CCB9A2CECC59ED = {
+			isa = PBXFileReference;
+			name = "QtGui.framework";
+			path = "/Users/wong/Qt5.6.0/5.6/clang_64/lib/QtGui.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		ED6F9CCFC3622BB847F1E030 = {
+			fileRef = "A356907425CCB9A2CECC59ED";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		48E9EA8947AF7A49B04090E0 = {
+			isa = PBXFileReference;
+			name = "QtCore.framework";
+			path = "/Users/wong/Qt5.6.0/5.6/clang_64/lib/QtCore.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		1F8290D5D664A66F34BB457C = {
+			fileRef = "48E9EA8947AF7A49B04090E0";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4B32C2222F82AC56BADEB21 = {
+			isa = PBXFileReference;
+			name = "OpenGL.framework";
+			path = "/System/Library/Frameworks/OpenGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8771A8C96E9C391044035D99 = {
+			fileRef = "D4B32C2222F82AC56BADEB21";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D9815BDB5BD9F90D2BC05C5 = {
+			isa = PBXFileReference;
+			name = "AGL.framework";
+			path = "/System/Library/Frameworks/AGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		E45E51A644D5FC9F942ECE55 = {
+			fileRef = "8D9815BDB5BD9F90D2BC05C5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"76D3B57722BB7036AF212927",
+				"B41C536525D6F53347B0637E",
+				"A356907425CCB9A2CECC59ED",
+				"48E9EA8947AF7A49B04090E0",
+				"D4B32C2222F82AC56BADEB21",
+				"8D9815BDB5BD9F90D2BC05C5");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<Group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"64DDDEC81E956CEB2D7F8497",
+				"63F459378D66B39AD5C37A44",
+				"ED6F9CCFC3622BB847F1E030",
+				"1F8290D5D664A66F34BB457C",
+				"8771A8C96E9C391044035D99",
+				"E45E51A644D5FC9F942ECE55");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		3FB1E213C53105F63C79E121 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "qt_pulse_as.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"3FB1E213C53105F63C79E121");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<Group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"74B182DB50CB5611B5C1C297",
+				"12E908B8A1C3C07C115504F5",
+				"AF39DD055C3EF8226FBE929D",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "qt_pulse_as";
+			sourceTree = "<Group>";
+		};
+		D195C54F96A7FBF12330AF81 = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		5FD0A525F357706A69F5227A = {
+			isa = PBXTargetDependency;
+			target = "D195C54F96A7FBF12330AF81";
+		};
+		6731B78CD7619B408F9532D3 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"30414803F31797EB689AE508");
+			dependencies = (
+				"5FD0A525F357706A69F5227A");
+			productReference = "3FB1E213C53105F63C79E121";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "qt_pulse_as";
+			productName = "qt_pulse_as";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "qt_pulse_as";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.7";
+				HEADER_SEARCH_PATHS = (
+					".",
+					"../../../Qt5.6.0/5.6/clang_64/lib/QtPrintSupport.framework/Headers",
+					"../../../Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers",
+					"../../../Qt5.6.0/5.6/clang_64/lib/QtGui.framework/Headers",
+					"../../../Qt5.6.0/5.6/clang_64/lib/QtCore.framework/Headers",
+					".",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					".",
+					"../../../Qt5.6.0/5.6/clang_64/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/wong/Qt5.6.0/5.6/clang_64/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/wong/Qt5.6.0/5.6/clang_64/lib",
+					"/Users/wong/Qt5.6.0/5.6/clang_64/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_PRINTSUPPORT_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_PRINTSUPPORT_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-stdlib=libc++",
+						"-Wl,-rpath,/Users/wong/Qt5.6.0/5.6/clang_64/lib",
+						"-F/Users/wong/Qt5.6.0/5.6/clang_64/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "qt_pulse_as";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "qt_pulse_as";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "qt_pulse_as";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/wong/QT_arteriosclerosis/qt_proj/qt_pulse_as/";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.7";
+				HEADER_SEARCH_PATHS = (
+					".",
+					"../../../Qt5.6.0/5.6/clang_64/lib/QtPrintSupport.framework/Headers",
+					"../../../Qt5.6.0/5.6/clang_64/lib/QtWidgets.framework/Headers",
+					"../../../Qt5.6.0/5.6/clang_64/lib/QtGui.framework/Headers",
+					"../../../Qt5.6.0/5.6/clang_64/lib/QtCore.framework/Headers",
+					".",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					".",
+					"../../../Qt5.6.0/5.6/clang_64/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/wong/Qt5.6.0/5.6/clang_64/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/wong/Qt5.6.0/5.6/clang_64/lib",
+					"/Users/wong/Qt5.6.0/5.6/clang_64/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_PRINTSUPPORT_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_PRINTSUPPORT_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-stdlib=libc++",
+						"-Wl,-rpath,/Users/wong/Qt5.6.0/5.6/clang_64/lib",
+						"-F/Users/wong/Qt5.6.0/5.6/clang_64/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				ENABLE_BITCODE = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "qt_pulse_as";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "qt_pulse_as";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"6731B78CD7619B408F9532D3",
+				"D195C54F96A7FBF12330AF81");
+			attributes = {
+				TargetAttributes = {
+				};
+			};
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}

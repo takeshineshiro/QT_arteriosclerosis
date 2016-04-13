@@ -48,6 +48,7 @@ void MeasureArteriosclerosis::_initUI()
 	
 	m_pLayout = new QVBoxLayout();
 	m_pLayout->addLayout(m_pMainLayout, 4);
+
 	m_pVersionInfo = new QLabel(QStringLiteral("VpsView(动脉硬化检测仪上位机),当前版本:1.0.0,Copyright © 乐普(北京)医疗器械股份有限公司 2015"));
 	//m_pVersionInfo->setFont(QFont(QStringLiteral("宋体"), 6));
 	m_pVersionInfo->setAlignment(Qt::AlignCenter);

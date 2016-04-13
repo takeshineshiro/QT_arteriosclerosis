@@ -1,8 +1,8 @@
 ﻿#include "./header/stdafx.h"
 #include "./header/measurearteriosclerosis.h"
 #include "./header/QDrawWaveWidget.h"
-#include <QtWidgets/QApplication>
-#include <QDialogButtonBox>
+#include   <QtWidgets/QApplication>
+#include   <QDialogButtonBox>
 //#include "./header/QPushButtonDemo.h"
 #include "./header/QReadAndWriteXml.h"
 #include "./header/QPainterResult.h"
@@ -19,7 +19,7 @@ extern "C"
 #include "fenlishuju_and_lvbo_2.h"
 #endif
 
-#include "PackageSendCmd.h"
+#include "./header/PackageSendCmd.h"
 
 int main(int argc, char *argv[])
 {
@@ -257,9 +257,11 @@ int main(int argc, char *argv[])
 
 //QSettings set("AAA", QSettings::IniFormat);
 //set.setValue("BAUD", 128000);
+
 	Q_INIT_RESOURCE(Icon);
 
 	QApplication a(argc, argv);
+
 	MeasureArteriosclerosis w;
 	//Win_QextSerialPort *myCom = new Win_QextSerialPort("COM9",QextSerialBase::EventDriven);
 

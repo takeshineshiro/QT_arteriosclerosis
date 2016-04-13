@@ -41,7 +41,11 @@ SOURCES += \
     source/PackageRecvCmd.cpp \
     source/packagecommon.cpp \
     source/measurearteriosclerosis.cpp \
-    source/main.cpp
+    source/main.cpp \
+    source/posix_qextserialport.cpp \
+    source/qextserialbase.cpp \
+    source/qextserialport.cpp \
+    source/win_qextserialport.cpp
 
 HEADERS  += \
     header/stdafx.h \
@@ -69,7 +73,11 @@ HEADERS  += \
     header/measurearteriosclerosis.h \
     header/fenlishuju_and_lvbo_2.h \
     header/ui_MedicalRecordDlg.h \
-    header/ui_PersonBasicInfo.h
+    header/ui_PersonBasicInfo.h \
+    header/posix_qextserialport.h \
+    header/qextserialbase.h \
+    header/qextserialport.h \
+    header/win_qextserialport.h
 
 FORMS    += \
     MedicalRecordDlg.ui \

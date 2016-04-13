@@ -12,10 +12,10 @@
 #ifdef __cplusplus
 extern "C"
 {
-#include "fenlishuju_and_lvbo_2.h"
+#include "./header/fenlishuju_and_lvbo_2.h"
 }
 #else
-#include "fenlishuju_and_lvbo_2.h"
+#include "./header/fenlishuju_and_lvbo_2.h"
 #endif
 
 //// 最大的PWV
